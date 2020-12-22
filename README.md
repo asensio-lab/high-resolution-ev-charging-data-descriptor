@@ -1,1 +1,1 @@
-#This file contains replication code for "Electric vehicle charging stations in the workplace: high-resolution data from casual and habitual users". 
+# This file contains replication code for "Electric vehicle charging stations in the workplace: high-resolution data from casual and habitual users". The data preprocessing is done in R using the code contained in this repository. To access the data, we have provided a link to the Dataverse repository that houses it.
