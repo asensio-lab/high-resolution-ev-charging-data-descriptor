@@ -1,6 +1,14 @@
 # Introduction
 This file contains replication code for "Electric vehicle charging stations in the workplace: high-resolution data from casual and habitual users". The data preprocessing is done in R using the code contained in this repository. To access the data, we have provided a link to the Dataverse repository that houses it.
 
+## Code Functionality and Structure
+
+The code assists in regenerating all figures and tables as well as generating all derived variables: totalSessions, habitualUser, and earlyAdopter. 
+
+Tables comprising Table 3 are stored in R matrices using the following format: table_3_(relevant description). For example, the portion relevant to high-volume users is stored as table_3_high in the code.
+
+Figures are named with the following convention for easy replication: figure_(figure number). For example, Figure 1 appears as figure_1 in the code. 
+
 ## Data Availability
 
 Data necessary for the use of this code can be found publicly at the following address: https://doi.org/10.7910/DVN/QF1PMO
