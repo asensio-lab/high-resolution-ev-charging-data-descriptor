@@ -1,6 +1,10 @@
 # Introduction
 This file contains replication code for "Electric vehicle charging stations in the workplace: high-resolution data from casual and habitual users". The data preprocessing is done in R using the code contained in this repository. To access the data, we have provided a link to the Dataverse repository that houses it.
 
+## Data Availability
+
+Data necessary for the use of this code can be found publicly at the following address: https://doi.org/10.7910/DVN/QF1PMO
+
 ## Data Dictionary
 
 What follows is the definition of each variable contained in the dataset, upon which the code is built. 
