@@ -5,9 +5,8 @@ This file contains replication code for "Electric vehicle charging stations in t
 
 What follows is the definition of each variable contained in the dataset, upon which the code is built. 
 
-sessionId: Identifies a specific EV charging session, where each row in the dataset represents a single session.
-
-userId: Identifies a specific electric vehicle owner. A user who charges multiple times can be identified throughout the dataset using this field. 
+* sessionId: Identifies a specific EV charging session, where each row in the dataset represents a single session.
+* userId: Identifies a specific electric vehicle owner. A user who charges multiple times can be identified throughout the dataset using this field. 
 stationId: Identifies a specific EV charging station which indicates where a given charging session occurred. 
 locationId: Identifies a given building or location, operated by the firm, where one or more EV chargers is available. 
 created: The timestamp at which a charging session was initialized, in YYYY-MM-DD HH:MM:SS format. 
