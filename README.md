@@ -30,10 +30,8 @@ What follows is the definition of each variable contained in the dataset, upon w
 * facilityType: Maps a given transaction to the type of facility where it took place. Manufacturing facilities correspond to 1, office facilities to 2, research and development to 3, and other to 4. 
 * managerVehicle: A binary variable indicating whether the vehicle associated with a given charging session is of the type generally owned by the firm’s managers as a result of a corporate incentive program (1 if manager vehicle, 0 if not).
 * earlyAdopter: A binary variable indicating whether a given user was an early adopter or late adopter of the EV charging program (1 if early adopter, 0 if late adopter). Early adopters are defined as the first quartile of users to log a charging session, while late adopters are defined as the remaining users.  
-* habitualUser: A binary variable indicating whether a user is a casual or habitual user of workplace charging (1 if habitual, 0 if casual). A habitual user is defined as someone who logged more than the mean of 40 charging sessions over the course of the data collection period, while a casual user is someone who logged fewer than 40 sessions. 
+* habitualUser: A binary variable indicating whether a user is a casual or habitual user of workplace charging (1 if habitual, 0 if casual). A habitual user is defined as someone who logged more than the median of 19 charging sessions over the course of the data collection period, while a casual user is someone who logged fewer than 19 sessions. 
 * reportedZip: A binary variable indicating whether a user self-reported a zip code to the network operator. 
 * platform: The type of device used to register a session. One of Android, iOS, or Web. 
 * distance: The estimated distance in miles from the centroid of a user’s provided zip code to the exact position where the charging station is located. Not all users provided a zip code. 
 * totalSessions: The count of total sessions logged by a given user over the course of the observation period.  
-
-
