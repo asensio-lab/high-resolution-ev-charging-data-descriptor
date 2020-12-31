@@ -3,7 +3,7 @@ This file contains replication code for "Electric vehicle charging stations in t
 
 ## Code Functionality and Structure
 
-The code contained in workplace_ev_charging_package.R assists in regenerating all figures and tables as well as generating all derived variables: totalSessions, habitualUser, and earlyAdopter. 
+The code contained in workplace_ev_charging_package.R assists in regenerating all figures and tables as well as generating variables totalSessions, habitualUser, and earlyAdopter. 
 
 Tables comprising Table 3 are stored in R matrices using the following format: table_3_(relevant description). For example, the portion relevant to high-volume users is stored as table_3_high in the code.
 
