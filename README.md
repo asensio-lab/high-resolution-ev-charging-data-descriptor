@@ -35,3 +35,6 @@ What follows is the definition of each variable contained in the dataset, upon w
 * platform: The type of device used to register a session. One of Android, iOS, or Web. 
 * distance: The estimated distance in miles from the centroid of a user’s provided zip code to the exact position where the charging station is located. Not all users provided a zip code. 
 * totalSessions: The count of total sessions logged by a given user over the course of the observation period.  
+
+## License
+This code and is made available under the Creative Commons CC BY license. Please visit this link for more information: https://creativecommons.org/licenses/by/4.0/
