@@ -37,4 +37,4 @@ What follows is the definition of each variable contained in the dataset, upon w
 * totalSessions: The count of total sessions logged by a given user over the course of the observation period.  
 
 ## License
-This code and is made available under the Creative Commons CC BY license. Please visit this link for more information: https://creativecommons.org/licenses/by/4.0/
+This code is made available under the Creative Commons CC BY-NC license. Please visit this link for more information: https://creativecommons.org/licenses/by-nc/4.0/
